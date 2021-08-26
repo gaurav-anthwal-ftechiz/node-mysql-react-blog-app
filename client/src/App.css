@@ -1,0 +1,222 @@
+.App {
+  /* text-align: center; */
+  max-width: 800px;
+  margin: 0 auto;
+  /* border: 1px solid #000; */
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+.hading {
+  color: #fff;
+}
+.center {
+  text-align: center;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+.mx-2 {
+  margin: 0 2rem;
+}
+.mx-3 {
+  margin: 0 3rem;
+}
+.mx-1 {
+  margin: 0 1rem;
+}
+a {
+  text-decoration: none;
+  padding: 5px;
+}
+a:hover {
+  color: #0933a5;
+}
+
+nav {
+  background-color: #0a9275;
+  display: flex;
+  color: #fff;
+}
+.nav-content {
+  min-width: 700px;
+  max-width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.todo-input {
+  padding: 5px;
+  border-radius: 0;
+  border: 1px solid #0a9275;
+  outline: none;
+}
+.todo-btn {
+  padding: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border: 1px solid #0a9275;
+  background-color: #0a9275;
+  color: #fff;
+}
+.avatar {
+  cursor: pointer;
+}
+
+.dropdown-box {
+  position: absolute;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  padding: 1rem 2rem;
+  top: 20px;
+  right: 10px;
+  background-color: #02775ed3;
+  z-index: 10;
+}
+
+.dropdown-parent {
+  position: relative;
+  background-color: rgba(255, 0, 0, 0.37);
+}
+.backdrop {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 5;
+}
+
+.logout-btn {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.logout-btn:hover {
+  background-color: teal;
+}
+
+.blog {
+  border: 1px solid #ccc;
+  padding: 1rem 2rem;
+}
+.blog h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.fa-times {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.header-link {
+  color: #05aca3;
+  border: 1px solid #fff;
+  padding: 2px;
+  background-color: #ffffff9a;
+}
+.header-link:hover {
+  color: #ccc;
+}
+
+.blog-post {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #ccc;
+  margin-top: 10px;
+  padding: 10px;
+}
+.form-control {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.blog-post input,
+textarea {
+  width: 80%;
+  display: flex;
+  font-size: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.blog-post textarea {
+  height: 100px;
+}
+.blog-post button {
+  margin: 0 auto;
+  padding: 8px 24px;
+  font-size: 1rem;
+  outline: none;
+  border: 0;
+  color: #fff;
+  background-color: #0a9275;
+  border-radius: 0;
+  cursor: pointer;
+}
+.blog-post button:hover {
+  background-color: #02775e;
+}
+.go-back-btn {
+  background-color: #ccc;
+  color: #5c5a5a;
+  outline: none;
+  border: 0;
+  padding: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.go-back-btn:hover {
+  color: #000;
+}
+
+.blog-actions {
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  padding: 8px 16px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.btn-red {
+  background-color: #c62828;
+  color: #fff;
+}
+.btn-yellow {
+  background-color: #ffab00;
+  color: #fff;
+}
+.reding-blogs {
+  min-height: 60vh;
+}
+
+.full-input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.footer {
+  padding: 2rem 0;
+  text-align: center;
+  margin-top: 4rem;
+  background-color: #f3f3f3;
+}
